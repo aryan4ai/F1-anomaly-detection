@@ -1,3 +1,8 @@
+<img width="678" height="452" alt="images" src="https://github.com/user-attachments/assets/18273d3f-4ab3-418f-8b36-0dfd1c7fc35a" />
+
+
+
+
 # F1 Telemetry Anomaly Detection
 
 Detecting mechanical failures and anomalous behaviour in Formula 1 telemetry data using unsupervised anomaly detection. Compares five models (Autoencoder, VAE, LSTM Autoencoder, Isolation Forest, One-Class SVM) across multiple seasons, with per-channel failure mode classification and cross-circuit generalization analysis.
