@@ -26,20 +26,16 @@ python run_pipeline.py --all --seasons 2022 2023 2024
 ### Individual steps
 
 ```bash
-# 1. Download and preprocess telemetry
-python run_pipeline.py --collect --seasons 2022 2023 2024
+ 1. Download and preprocess telemetry
 
-# 2. Generate ground truth labels
-python run_pipeline.py --label --seasons 2022 2023 2024
+ 2. Generate ground truth labels
 
-# 3. Train all models, evaluate, generate figures
-python run_pipeline.py --train --seasons 2022 2023 2024
+ 3. Train all models, evaluate, generate figures
 
-# 4. Hyperparameter search (optional)
-python run_pipeline.py --search --model autoencoder --n_trials 50
+ 4. Hyperparameter search (optional)
 
-# 5. Cross-circuit generalization study
-python run_pipeline.py --circuit-study --seasons 2022 2023 2024
+ 5. Cross-circuit generalization study
+
 ```
 
 ## Data Sources
